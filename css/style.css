@@ -1,0 +1,56 @@
+/*================================================
+RESETS
+================================================*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+/*================================================
+GRID
+================================================*/
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.column {
+    display: inline-block;
+
+    min-height: 100px;
+    margin: 0 10px 10px -4px;
+
+    text-align: center;
+
+}
+
+.column-6 {
+    width: 950px;
+}
+
+.column-2 {
+    width: 470px;
+}
+
+.column-1 {
+    width: 150px;
+}
+
+/*================================================
+COLORS
+================================================*/
+.blue {
+    background-color: #7eb6e5;
+}
+
+.yellow {
+    background-color: #e5d57e;
+}
+
+.green {
+    background-color: #7ee59a;
+}
