@@ -8,38 +8,39 @@ html, body {
 
 body {
     background-color: #f0f0f0;
+    padding: 60px
 }
 
 /*================================================
 GRID
 ================================================*/
-.container {
-    width: 960px;
-    margin: 0 auto;
-}
+.container { margin: 0 auto; }
+
+.layout-fixed { width: 960px; }
 
 .column {
-    display: inline-block;
-
+    display: inline;
+    float: left;
     min-height: 100px;
-    margin: 0 10px 10px -4px;
-
+    margin: 0 10px;
+    margin-bottom: 10px;
     text-align: center;
 
 }
 
-.column-6 {
-    width: 950px;
-}
+.column-6 { width: 940px; }
+.column-3 { width: 460px; }
+.column-2 { width: 300px; }
+.column-1 { width: 140px; }
 
-.column-2 {
-    width: 470px;
-}
+/* Responsive */
+.layout-responsive { width: 72.20%;/* 960px/1330px * 100 */ }
 
-.column-1 {
-    width: 150px;
-}
-
+.layout-responsive .column { margin: 5px 1.052%; }
+.layout-responsive .column-6 { width: 100%; }
+.layout-responsive .column-3 { width: 49.47%;}
+.layout-responsive .column-2 { width: 100%; }
+.layout-responsive .column-1 { width: 100%; }
 /*================================================
 COLORS
 ================================================*/
