@@ -1,0 +1,17 @@
+{
+  "name": "grid-simples",
+  "version": "1.0.0",
+  "homepage": "https://github.com/gabrielmelo/grid-simples",
+  "authors": [
+    "Gabriel Melo <veggabriel@gmail.com>"
+  ],
+  "description": "Grid Simples",
+  "main": "css/grid.css",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+  ],
+}
