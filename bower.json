@@ -5,13 +5,14 @@
   "authors": [
     "Gabriel Melo <veggabriel@gmail.com>"
   ],
-  "description": "Grid Simples",
+  "description": "Grid simples",
   "main": "css/grid.css",
-  "moduleType": [
-    "node"
-  ],
   "license": "MIT",
   "ignore": [
+    "**/.*",
     "node_modules",
-  ],
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
