@@ -2,10 +2,8 @@
 RESETS
 ================================================*/
 
-/* border-box */
 *, *:before, *:after {
-    -moz-box-sizing: border-box;
-         box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -20,14 +18,17 @@ body {
 img, embed, object, video {
     max-width: 100%;
 }
+
 /*================================================
-GRID
+LAYOUT
 ================================================*/
 .container { margin: 0 auto; }
 
-/* Layout fixed */
 .layout-fixed { width: 960px; }
 
+/*================================================
+GRID
+================================================*/
 .column {
     display: inline;
     float: left;

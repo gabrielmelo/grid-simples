@@ -1,0 +1,118 @@
+/* ======================================================================== *
+ * GRID SIMPLES
+ * ======================================================================== */
+/* Main Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* The Columns */
+[class^="column-"] {
+  float: left;
+  padding: 0 1em;
+}
+
+/* The row */
+.row {
+  margin-left: -1em;
+  margin-right: -1em;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Column widths  */
+.column-1 {
+  width: 8.33333%;
+}
+
+.column-2 {
+  width: 16.66667%;
+}
+
+.column-3 {
+  width: 25%;
+}
+
+.column-4 {
+  width: 33.33333%;
+}
+
+.column-5 {
+  width: 41.66667%;
+}
+
+.column-6 {
+  width: 50%;
+}
+
+.column-7 {
+  width: 58.33333%;
+}
+
+.column-8 {
+  width: 66.66667%;
+}
+
+.column-9 {
+  width: 75%;
+}
+
+.column-10 {
+  width: 83.33333%;
+}
+
+.column-11 {
+  width: 91.66667%;
+}
+
+.column-12 {
+  width: 100%;
+}
+
+/* Special Classes */
+.column-third {
+  width: 33.33333%;
+}
+
+.column-two-thirds {
+  width: 66.66667%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.column-quarter {
+  width: 25%;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  [class^="column-"] {
+    float: left;
+    padding: 0 0.5em;
+  }
+
+  /* The row */
+  .row {
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+  }
+}
+@media (max-width: 768px) {
+  [class^="column-"] {
+    width: 100%;
+  }
+
+  /* The row */
+  .row {
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+  }
+}
