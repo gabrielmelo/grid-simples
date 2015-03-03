@@ -28,23 +28,12 @@ h1 {
   letter-spacing: 2px;
 }
 
-header {
-  position: absolute;
-  top: 40%;
-  z-index: 1;
-}
-
 /* Demo column
 * remove this class
 */
 .demo-ui,
 .demo-column {
   height: 100%;
-}
-
-.demo-ui {
-  position: relative;
-  z-index: 2;
 }
 
 .demo-column {
