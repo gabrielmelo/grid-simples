@@ -9,9 +9,8 @@ $container: 80%;
 
 /* Main Container */
 .container {
-	width: $container;
+  width: $container;
 	margin: 0 auto;
-  height: 100%;
 }
 
 /* The Columns */
@@ -56,7 +55,6 @@ $container: 80%;
 .column-quarter {
 	width: (100 / 4) * 1%;
 }
-
 
 /* Responsive */
 @media (max-width: 1024px) {
