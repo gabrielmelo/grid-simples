@@ -1,10 +1,10 @@
 /* ======================================================================== *
  * GRID SIMPLES
  * ======================================================================== */
-/* Main Container */
-.container {
-  width: 80%;
-  margin: 0 auto;
+
+/* Resets */
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
 /* The Columns */

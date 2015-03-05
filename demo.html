@@ -1,19 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Grid Simples</title>
+<title>Grid Simples</title>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width"/>
-    <meta name="description" content="Grid Simples"/>
-    <meta name="author" content="Gabriel Melo"/>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="Grid Simples"/>
+<meta name="author" content="Gabriel Melo"/>
 
-    <!-- Remove this stylesheet demo.css -->
-    <link rel="stylesheet" href="css/demo.css">
+<!-- Remove this stylesheet demo.css -->
+<link rel="stylesheet" href="css/demo.css">
 
-    <!-- Grid Simples stylesheet -->
-    <link rel="stylesheet" href="css/grid.css">
+<!-- Grid Simples stylesheet -->
+<link rel="stylesheet" href="css/grid.css">
+
+<style>
+     /* Resets */
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      background-color: #f3f3f3;
+      font-family: serif;
+    }
+
+    /* Main Container */
+    .container {
+      height: 80%;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    /* Typography */
+    h1 {
+      font-size: 12em; /* 160 / 16 */
+      letter-spacing: 2px;
+    }
+
+    /* Demo column
+    * remove this class
+    */
+    .demo-ui,
+    .demo-column {
+      height: 100%;
+    }
+
+    .demo-column {
+      background: hsla(207, 66%, 70%, 0.6);
+      text-align: center;
+      display: block;
+    }
+
+    .row {
+      margin-bottom: 1em;
+    }
+
+    /* The Columns */
+    [class^="column-"] {
+      height: 100%;
+    }
+</style>
 
 </head>
 <body>
