@@ -1,9 +1,10 @@
 /* ======================================================================== *
  * GRID SIMPLES
  * ======================================================================== */
-
 /* Resets */
 *, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -100,13 +101,14 @@
 
   /* The row */
   .row {
-    margin-left: -0.5em;
-    margin-right: -0.5em;
+    margin-left: -1em;
+    margin-right: -1em;
   }
 }
 @media (max-width: 768px) {
   [class^="column-"] {
     width: 100%;
+    margin-bottom: 1em;
   }
 
   /* The row */

@@ -11,7 +11,6 @@ grunt.initConfig({
           style: 'expanded'
         },
         files: {
-          'css/demo.css': 'scss/demo.scss',
           'css/grid.css': 'scss/grid.scss',
         }
       }
