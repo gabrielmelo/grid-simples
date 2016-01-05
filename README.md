@@ -1,28 +1,62 @@
-# GRID SIMPLES
-This document will rescribe the streture of grid simples
+# GRID SIMPLLES
+Este documento contém informações sobre a instalação e estrutura do Grid Simples
 
 ---
 
-## Installation 
-* [Bower](http://bower.io/): `bower install --`
-* [Github](http://github.com): `git clone https://github.com`
-* Download:
+## Instalação
+
+* [Github](https://github.com/gabrielmelo/grid-simples.git): `https://github.com/gabrielmelo/grid-simples.git`
 
 
+## Grid
 
-## The Grid System
+- 12 columns;
+- Responsive e fluído;
+- Cada columns será envolvida com um `.row`;
+- Cada coluna terá a classe `.column-$`, onde $ é igual a quantidade de coluna(s) desejada.
 
-**Description**
 
-- 12 columns
-- Responsive, fluid
-- Columns will be wrapped in a container . row
-- Each column will have the class of .column-$
-- Also creat a .container class that wraps all content and centers it on the page. The container must be fluid in width.
+### Classes Especiais
 
-**Responsive**
+- `.column-third` Representa 1/3 do container;
 
-- in Smaller screen sizes (<1024px) the columns will have their gutter width halved
-- In mobile sizes (<768px) all columns will get a 100% width
+- `.column-two-thirds` Representa 2/3 do container;
 
-**Exmple uses:**
+- `.column-half` Representa a metada do container;
+
+- `.column-quarter` Representa 1/4 do container;
+
+### Layout Responsivos
+
+- Em tamanho de tela menos (<1024px) as colunas terão seu espaçamento interno (padding) reduzido.
+
+- Em tamanho de tela (<768px) todas as colunas terá uma largura de 100%;
+
+
+## Uso
+
+*** Exemplos layouts com sidebar: ***
+
+	<div class="container">
+    	<div class="row">
+        	<div class="column-8">...</div>
+	        <div class="column-4">..</div>
+    	</div>
+	</div>
+
+*** Exemplos layouts sem sidebar: ***
+
+	<div class="container">
+    	<div class="row">
+        	<div class="column-12">...</div>
+    	</div>
+	</div>
+
+*** Exemplos layouts com classes especiais: ***
+
+	<div class="container">
+    	<div class="row">
+        	<div class="column-two-thirds">...</div>
+        	<div class="column-third">...</div>
+    	</div>
+	</div>>
